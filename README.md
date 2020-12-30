@@ -11,7 +11,7 @@ php artisan migrate
 register a user and login then  
 yourhost.com/admin/initial  
 
-then 
+then  
 php artisan db:seed
 
 
