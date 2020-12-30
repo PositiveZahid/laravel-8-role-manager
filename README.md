@@ -19,7 +19,4 @@ Login with
 user: admin@admin.com  
 pass: password  
 
-This repository is contributed by 
-
-
-[GitHub Pages](https://pages.github.com/).
+This repository is contributed by [sadiredwan](https://github.com/sadiredwan) and [PositiveZahid](https://github.com/positivezahid)
