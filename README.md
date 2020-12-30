@@ -7,13 +7,13 @@ This is a readymade template. Just clone your copy.
 
 Run  
 php artisan migrate  
-php artisan db:seed  
 
-or   
-
-Run  
-php artisan migrate  
+register a user and login then  
 yourhost.com/admin/initial  
+
+then 
+php artisan db:seed
+
 
 Login with  
 user: admin@admin.com  

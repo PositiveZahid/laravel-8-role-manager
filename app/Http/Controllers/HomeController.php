@@ -31,9 +31,9 @@ class HomeController extends Controller
 
 	public function initial()
 	{
-		if (Role::where('name', '=', 'admin')->exists()) {
- 			return redirect()->route('admin.users.index');
-		}
+		// if (Role::where('name', '=', 'admin')->exists()) {
+ 		// 	return redirect()->route('admin.users.index');
+		// }
 
 		Role::create(['name' => 'admin']);
 		Permission::create(['name' => 'users_manage']);
@@ -41,6 +41,6 @@ class HomeController extends Controller
 		$permission = Permission::orderby('created_at', 'desc')->first();
 		$role->givePermissionTo($permission);
 
-		return redirect()->route('home.index');
+		return view('home.index');
 	}
 }
